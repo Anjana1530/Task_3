@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colorful Quiz & Joke App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎨 Colorful Quiz & Joke App</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🤓 Quick Quiz</h2>
+      <p id="quiz-question">Loading question...</p>
+      <div class="quiz-buttons" id="quiz-buttons"></div>
+      <p id="quiz-result"></p>
+    </section>
+
+    <section class="card">
+      <h2>😂 Need a Laugh?</h2>
+      <button class="joke-button" onclick="fetchJoke()">Get a Joke</button>
+      <p id="joke">Click the button to load a joke!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
